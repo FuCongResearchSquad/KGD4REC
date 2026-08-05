@@ -5,8 +5,8 @@ This repository provides a reference implementation of KGD, using ManCAR as the 
 
 ## Resources
 
-- 🔗 arXiv Paper: Coming Soon
-- 🤗 Hugging Face Paper: Coming Soon
+- 🔗 arXiv Paper: https://arxiv.org/abs/2608.02738
+- 🤗 Hugging Face Paper: https://huggingface.co/papers/2608.02738
 - 🤗 Hugging Face Dataset: https://huggingface.co/datasets/PIIR/KGD-dataset
 
 ## Overview
@@ -81,3 +81,16 @@ DATASET=Software PRETRAIN_INIT_PATH=save_model/Software/pretrain/xxx.pt bash run
 ## Acknowledgements
 
 Our code is built upon the official [ManCAR](https://github.com/FuCongResearchSquad/ManCAR) and [ReaRec](https://github.com/TangJiakai/ReaRec) repositories, and we sincerely thank their authors.
+
+## Citation
+```bibtex
+@misc{KGD,
+      title={Knowledge-Geometry Decoupling: Refreshable Pretrained Transfer for Streaming Recommendation}, 
+      author={Zixuan Wang and Yuhong Chen and Yuxuan Zhu and Guidong Lei and Zhiluohan Guo and Yu Zhao and Kun Wang and Bangyang Hong and Kangle Wu and Yabo Ni and Anxiang Zeng and Cong Fu and Hui Li},
+      year={2026},
+      eprint={2608.02738},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR},
+      url={https://arxiv.org/abs/2608.02738}, 
+}
+```
